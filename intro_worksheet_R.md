@@ -157,7 +157,7 @@ Realizar lo siguiente:
 **Sentencia de control IF**
 
 Ejecuta un trozo de código si la condición evaluada es verdadera, la instrucción "else" ejecuta el trozo de código interno si la condición es falsa. Evalúa valores lógicos que provienen de valores lógicos o comparaciones de valores númericos o comparaciones de cadenas.
-Completar el código siguiente, a manera de que se detenga exactamente cuando encuentre el número 40:
+
 
 ~~~~R
 # evaluando si 3 es menor a 4
@@ -220,7 +220,7 @@ for(i in 1:3){
 Resolver lo siguiente:
 
 15. hacer las instrucciones para recorrer la matriz por fila a la vez
-16. Completar el código siguiente, a manera de que se detenga exactamente cuando encuentre el número 40:
+16. Completar el código siguiente, a manera de que se detenga exactamente cuando encuentre el número 40.
 ~~~~R
 #deteniendo el ciclo cuando encuentra el 40 en la matriz
 for(i in 1:3){
