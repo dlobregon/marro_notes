@@ -5,6 +5,7 @@ Segundo Semestre 2017
 ## Worksheet – R Basics
 
 **Impresión en consola y asignación de variables**
+
 Para imprimir el resultado de alguna operación o un determinado valor solo es necesario escribir la operación. Además de valores numéricos se pueden agregara secuencias de letras o caracteres. Para que R interprete como una cadena se debe de empezar y terminar con comillas dobles "". R también maneja datos de tipo lógico, estos datos o valores pueden explicito
 Ejemplo:
 ~~~~R
@@ -31,6 +32,7 @@ a_log <- 10 < 8 # asigna un valor lógico
 ~~~~
 
 **Generación de secuencias**
+
 En ocasiones necesitaremos manejar una sucesión de números desde un valor inicial hasta un valor final, para ello R cuenta con un mecanismo para poder generar la sucesión. La sintaxis es de la siguiente manera: “número_inicial:número_final”
 ~~~~R
 #generación ascendente
@@ -52,6 +54,7 @@ Resolver lo siguiente:
 
 
 **Estructuras de datos**
+
 Existen escenarios donde debemos almacenar conjuntos de datos, para ello en programación existe el concepto de “Estructura de datos” que busca que las personas puedan manejar muchos datos en una variable.
 Las estructuras de datos más comunes son las siguientes:
 * Vectores
@@ -61,6 +64,7 @@ Las estructuras de datos más comunes son las siguientes:
 * Data frames
 
 **Vectores**
+
 Los vectores son las estructuras de datos más simples y comunes en R. Tiene la característica de que puede  almacenar valores lógicos, numéricos y cadenas. Los vectores sólo pueden almacenar valores de un tipo, no almacena mezclas.  Para construir un vector se utiliza la función “c()” que le indica a R que se hará una combinación.
 ~~~~R
 #imprimiendo un vector
@@ -77,6 +81,7 @@ Realizar lo siguiente:
 6. Para que sirve la función "mode()" en R.
 
 **Matrices**
+
 Una matriz es un conjunto de datos de dos dimensiones, en el caso de R necesitamos especificar a priori el número de columnas y el número de filas para poder utilizar cada uno de los campos. 
 ~~~~R
 #creación de una matriz
@@ -110,6 +115,7 @@ Realizar lo siguiente:
 8. 	Crear una matriz de dos columnas, donde la primera columna son los números de 1 a 25, la segunda columna es el valor de la primera columna al cuadrado.
 
 **Accediendo a valores de vectores y matrices**
+
 Para acceder a un valor especifico que se encuentra dentro de un vector o matríz debemos de indicar las "coordenas" o "posición", esa tal posición se le llama "índice".
 ~~~~R
 #accediendo al valor de un vector
@@ -129,6 +135,7 @@ Realizar lo siguiente:
 11. Investigar en que se diferencia una Matriz y un Array en R.
 
 **Data frames**
+
 Son estructuras de datos que permiten almacenar valores mixtos, son de dos dimensiones y además permiten el uso de cabeceras para las columnas.
 ~~~~R
 #creando un dataframe
@@ -148,6 +155,7 @@ Realizar lo siguiente:
 
 
 **Sentencia de control IF**
+
 Ejecuta un trozo de código si la condición evaluada es verdadera, la instrucción "else" ejecuta el trozo de código interno si la condición es falsa. Evalúa valores lógicos que provienen de valores lógicos o comparaciones de valores númericos o comparaciones de cadenas.
 Completar el código siguiente, a manera de que se detenga exactamente cuando encuentre el número 40:
 
@@ -168,16 +176,19 @@ print(
   )
 ~~~~
 Resolver lo siguiente:
+
 13. encontrar los signos de comparación para valores númericos y lógicos
 14. investigar cómo se niega un valor lógico, es decir que pase de verdadero a falso y viceversa
 
 **Ciclos**
+
 Los ciclos son sentencias que ejecutan porciones de código un determinado número de veces. Los ciclos en R son los siguientes:
 * for
 * while
 * repeat
 
 **Ciclo "for"**
+
 Repite la porción de código por un número establecidoCompletar el código siguiente, a manera de que se detenga exactamente cuando encuentre el número 40:
  de veces.
 ~~~~R
@@ -207,6 +218,7 @@ for(i in 1:3){
 ~~~~
 
 Resolver lo siguiente:
+
 15. hacer las instrucciones para recorrer la matriz por fila a la vez
 16. Completar el código siguiente, a manera de que se detenga exactamente cuando encuentre el número 40:
 ~~~~R

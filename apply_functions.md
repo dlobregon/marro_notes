@@ -4,6 +4,7 @@ Segundo Semestre 2017
 ## Funciones y el uso de Apply
 
 **Funciones**
+
 Una función es una porción de código diseñado y organizado para  obtener un resultado específico. Las partes fundamentales de una función son los “parámetros” (son los datos sobre los cuales operamos) y el “return” que nos devuelve el resultado de la operación. En R las funciones se declaran de la siguiente manera:
 
 ~~~~R
@@ -29,6 +30,7 @@ De lo anterior, nótese que se pueden enviar vectores siempre y cuando sean del 
 
 
 **Apply**
+
 Para operar entre los valores de las columnas  y filas de un “data frame” o matriz podemos utilizar ciclos como el “for” o el “while”. R tiene entre una función que nos facilita aplicar funciones a los valores de las estructuras de datos llamada “apply”. La función “apply” devuelve un vector o matriz de valores obtenidos al aplicar una función a los márgenes de una matriz o “data frame” sin caer en la necesidad de usar ciclos.
 
 La función “apply” está formada básicamente por los siguientes parámetros:
