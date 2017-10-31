@@ -1,7 +1,8 @@
 UNIVERSIDAD FRANCISCO MARROQUÍN - Facultad de Ciencias Económicas
 Aplicaciones económicas de programación y bases de datos I – Sección A
 Segundo Semestre 2017
-##Worksheet – R Basics
+
+## Worksheet – R Basics
 
 **Impresión en consola y asignación de variables**
 Para imprimir el resultado de alguna operación o un determinado valor solo es necesario escribir la operación. Además de valores numéricos se pueden agregara secuencias de letras o caracteres. Para que R interprete como una cadena se debe de empezar y terminar con comillas dobles "". R también maneja datos de tipo lógico, estos datos o valores pueden explicito
@@ -211,11 +212,11 @@ Resolver lo siguiente:
 ~~~~R
 #deteniendo el ciclo cuando encuentra el 40 en la matriz
 for(i in 1:3){
-		for(j in 1:15){
-   	 	print(matriz[j,i])
-    		if(matriz[j,i] == 40){
-     	 	break
-    		}
-  		}
+ for(j in 1:15){
+  print(matriz[j,i])
+   if(matriz[j,i] == 40){
+    break
+   }
+ }
 }
 ~~~~
